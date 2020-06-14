@@ -1,0 +1,25 @@
+/*
+* @Author: 86183
+* @Date:   2020-05-31 11:07:47
+* @Last Modified by:   86183
+* @Last Modified time: 2020-05-31 12:05:18
+*/
+/*重置浏览器样式*/
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+a{
+	text-decoration:none;
+}
+/*清除浮动*/
+.clear:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}

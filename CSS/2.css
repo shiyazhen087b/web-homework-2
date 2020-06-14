@@ -1,0 +1,90 @@
+/*
+* @Author: 86183
+* @Date:   2020-06-13 18:59:24
+* @Last Modified by:   86183
+* @Last Modified time: 2020-06-13 19:50:26
+*/
+
+    body{
+		background-color:#353f42;
+    }
+    *{
+        padding: 0;
+        margin: 0 auto;
+    }
+ 
+    .main {
+        margin: 0 auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 15px;
+        width: 350px;
+        height: 350px;
+        
+    }
+    p{
+    	margin-top: 200px;
+    	margin-bottom: 10px;
+    	text-align:center;
+    	font-size: 25px;
+    	width: 300px;
+    	font-family: "幼圆";
+    	font-weight: bold;
+        height: 40px;
+        line-height: 40px;
+        color: #006400;
+    }
+ 
+    .tishi:hover{
+        cursor: default	;
+    }
+    .inputdiv{
+    	width: 330px;
+    	height: 110px;
+    }
+    .inputdiv input {
+    	display: block;
+    	border: 1px solid #006400;
+        width: 330px;
+        height: 45px;
+        font-size: 14px;
+        background: #ffffff;
+        margin-top: 10px;
+        float: left;
+
+    }
+    .enter-btn {
+        width: 330px;
+        height: 45px;
+        color: #fff;
+        background: #0bc5de;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 10px;
+        border: 1px solid #006400;
+    }
+ 
+    .later{
+        width: 100%;
+        height: auto;
+        color: #9b9c98;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+ 
+    .enter-btn:hover {
+        cursor:pointer;
+        background: #006400;
+    }
+ 
+    .later div:hover {
+        cursor:pointer;
+        color: #006400;
+        font-weight: 600;
+    }
+    .left{
+        float: left;
+    }
+	.right{
+        float: right;
+	}
